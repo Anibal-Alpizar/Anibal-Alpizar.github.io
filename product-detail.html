@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Technology Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ecommerc">
+    <meta name="author" content="Anibal Alpizar Campos">
+    <link rel="icon" href="/img/index/apple.jpg">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/product.detail.css">
+</head>
+
+
+<body>
+    <!-- Top bar Start -->
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                    SONY
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top bar End -->
+
+
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="product-list.html" class="nav-item nav-link">Productos</a>
+                        <a href="product-detail.html" class="nav-item nav-link active">¡Lo nuevo!</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">¡Adicional!</a>
+                            <div class="dropdown-menu">
+                                <a href="contact.html" class="dropdown-item">Contacto</a>
+                            </div>
+                        </div>
+                        <a href="aboutus.html" class="nav-item nav-link">¿Quienes somos? / Historia</a>
+                        <a href="validaciones.html" class="nav-item nav-link">| Validaciones</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/index/pslogo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                <li class="breadcrumb-item active">Product Detail</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Product Detail Start -->
+    <div class="product-detail">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="product-detail-top">
+                        <div class="row align-items-center">
+                            <div class="col-md-5">
+                                <div class="product-slider-single normal-slider">
+                                    <img src="img/index/applephone.jpg" alt="Product Image">
+                                    <img src="img/index/applewatch.jpg" alt="Product Image">
+                                    <img src="img/index/buds.jpg" alt="Product Image">
+                                    <img src="img/index/drive.jpg" alt="Product Image">
+                                    <img src="img/index/g1.jpg" alt="Product Image">
+                                    <img src="img/index/cam.jpg" alt="Product Image">
+                                </div>
+                                <div class="product-slider-single-nav normal-slider">
+                                    <div class="slider-nav-img"><img src="img/index/applephone.jpg" alt="Product Image">
+                                    </div>
+                                    <div class="slider-nav-img"><img src="img/index/applewatch.jpg" alt="Product Image">
+                                    </div>
+                                    <div class="slider-nav-img"><img src="img/index/buds.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/index/drive.jpg" alt="Product Image">
+                                    </div>
+                                    <div class="slider-nav-img"><img src="img/index/g1.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/index/cam.jpg" alt="Product Image"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="product-content">
+                                    <div class="title">
+                                        <h2>¡Rebajos!</h2>
+                                    </div>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <h4>Price:</h4>
+                                        <p>¡499! <span>$149</span></p>
+                                    </div>
+                                    <div class="action">
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i>¡Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row product-detail-bottom">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#description">¿Como
+                                        trabajamos?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#specification">¿Que productos
+                                        ofrecemos?</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="description" class="container tab-pane active">
+                                    <h4>¿Porque hacemos convenio con Amazon?</h4>
+                                    <p>
+                                        Algunas de las principales ventajas son: Es muy sencillo, empezar a vender en
+                                        Amazon es muy fácil y rápido. No requiere la creación de una tienda online, solo
+                                        hay que gestionar el catálogo de productos y empezar a vender. Es de los
+                                        marketplace que mejor funcionan y más visitados diariamente.
+                                    </p>
+                                </div>
+                                <div id="specification" class="container tab-pane fade">
+                                    <h4>Product specification</h4>
+                                    <ul>
+                                        <li>Computadoras</li>
+                                        <li>Celulares</li>
+                                        <li>Audifonos</li>
+                                        <li>Cámaras</li>
+                                        <li>Relojes</li>
+                                        <li>¡Y más!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="section-header">
+                            <h1>Productos relacionadas</h1>
+                        </div>
+
+                        <div class="row align-items-center product-slider product-slider-3">
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a
+                                            href="https://www.amazon.com/-/es/Dynabook-Satellite-pulgadas-i5-1135G7-Computadora/dp/B09XJ9VHGM/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3DO8TJ2SG90P5&keywords=TOSHIBA&qid=1660771947&sprefix=toshiba+%2Caps%2C126&sr=8-3">TOSHIBA
+                                            DYNABOOK</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/products/ts1.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>$</span>600.00</h3>
+                                        <a class="btn"
+                                            href="https://www.amazon.com/-/es/Dynabook-Satellite-pulgadas-i5-1135G7-Computadora/dp/B09XJ9VHGM/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3DO8TJ2SG90P5&keywords=TOSHIBA&qid=1660771947&sprefix=toshiba+%2Caps%2C126&sr=8-3"><i
+                                                class="fa fa-shopping-cart"></i>Ver en Amazon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a
+                                            href="https://www.amazon.com/-/es/Gigabyte-G27FC-pantalla-respuesta-visualizaci%C3%B3n/dp/B0927959GD/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2B1SS72U8297Y&keywords=GIGABYTE+G27FC-165HZ&qid=1660772036&sprefix=gigabyte+g27fc-165hz%2Caps%2C136&sr=8-1">GIGABYTE
+                                            G27FC-165HZ</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/products/g1.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>$</span>399.00</h3>
+                                        <a class="btn"
+                                            href="https://www.amazon.com/-/es/Gigabyte-G27FC-pantalla-respuesta-visualizaci%C3%B3n/dp/B0927959GD/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2B1SS72U8297Y&keywords=GIGABYTE+G27FC-165HZ&qid=1660772036&sprefix=gigabyte+g27fc-165hz%2Caps%2C136&sr=8-1"><i
+                                                class="fa fa-shopping-cart"></i>Ver en Amazon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a
+                                            href="https://www.amazon.com/-/es/Logitech-Creators-Blue-Yeticaster-transmisi%C3%B3n/dp/B078MHS3SC/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3SHDRWB9GCB2I&keywords=BLUE+YETICASTER&qid=1660772092&sprefix=blue+yeticaster%2Caps%2C117&sr=8-1">BLUE
+                                            YETICASTER</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/products/by1.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>$</span>215.00</h3>
+                                        <a class="btn"
+                                            href="https://www.amazon.com/-/es/Logitech-Creators-Blue-Yeticaster-transmisi%C3%B3n/dp/B078MHS3SC/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3SHDRWB9GCB2I&keywords=BLUE+YETICASTER&qid=1660772092&sprefix=blue+yeticaster%2Caps%2C117&sr=8-1"><i
+                                                class="fa fa-shopping-cart"></i>Ver en Amazon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a
+                                            href="https://www.amazon.com/K617-interruptor-compatible-controlador-profesional/dp/B09BVD39P8/ref=sxin_14_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.96f49e12-6718-40e7-8e02-95e55a3bb88e%3Aamzn1.sym.96f49e12-6718-40e7-8e02-95e55a3bb88e&crid=7FKNTN07XN39&cv_ct_cx=REDRAGON+S129+W&keywords=REDRAGON+S129+W&pd_rd_i=B09BVD39P8&pd_rd_r=341e39a1-7a03-44e2-824a-db6351e38077&pd_rd_w=1dJEo&pd_rd_wg=ZzUpr&pf_rd_p=96f49e12-6718-40e7-8e02-95e55a3bb88e&pf_rd_r=QDNMK2XT2VPKV6T67TKW&qid=1660772522&sprefix=redragon+s129w%2Caps%2C215&sr=1-1-3db28678-d637-4b9f-b596-0fb441b1b408-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT1FFTkNIWU02RlJQJmVuY3J5cHRlZElkPUEwMzg2MDMzMjdPWkVVS1RTVEs4TiZlbmNyeXB0ZWRBZElkPUEwOTk3Nzk5MlFEWkI4NlI5UEswUiZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">REDRAGON
+                                            S129W</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/products/r1s.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>$</span>80.00</h3>
+                                        <a class="btn"
+                                            href="https://www.amazon.com/K617-interruptor-compatible-controlador-profesional/dp/B09BVD39P8/ref=sxin_14_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.96f49e12-6718-40e7-8e02-95e55a3bb88e%3Aamzn1.sym.96f49e12-6718-40e7-8e02-95e55a3bb88e&crid=7FKNTN07XN39&cv_ct_cx=REDRAGON+S129+W&keywords=REDRAGON+S129+W&pd_rd_i=B09BVD39P8&pd_rd_r=341e39a1-7a03-44e2-824a-db6351e38077&pd_rd_w=1dJEo&pd_rd_wg=ZzUpr&pf_rd_p=96f49e12-6718-40e7-8e02-95e55a3bb88e&pf_rd_r=QDNMK2XT2VPKV6T67TKW&qid=1660772522&sprefix=redragon+s129w%2Caps%2C215&sr=1-1-3db28678-d637-4b9f-b596-0fb441b1b408-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT1FFTkNIWU02RlJQJmVuY3J5cHRlZElkPUEwMzg2MDMzMjdPWkVVS1RTVEs4TiZlbmNyeXB0ZWRBZElkPUEwOTk3Nzk5MlFEWkI4NlI5UEswUiZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="><i
+                                                class="fa fa-shopping-cart"></i>Ver en Amazon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a
+                                            href="https://www.amazon.com/-/es/DotDisplay-Procesador-Snapdragon-Smartphone-desbloqueado/dp/B08H5HYZ1K/ref=sr_1_1?adgrpid=87137420328&gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hB5olwkGkQ90hBbO5KynhFSmaeWYcxOmlwhycnHRAy1VJUD7JGMskBoCNrYQAvD_BwE&hvadid=585479824073&hvdev=c&hvlocphy=1003673&hvnetw=g&hvqmt=b&hvrand=12060432139590225660&hvtargid=kwd-947728351851&hydadcr=29108_14573980&keywords=xiaomi+poco+x&qid=1660771826&sr=8-1">XIAOMI
+                                            POCO</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/products/x1.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>$</span>229.00</h3>
+                                        <a class="btn"
+                                            href="https://www.amazon.com/-/es/DotDisplay-Procesador-Snapdragon-Smartphone-desbloqueado/dp/B08H5HYZ1K/ref=sr_1_1?adgrpid=87137420328&gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hB5olwkGkQ90hBbO5KynhFSmaeWYcxOmlwhycnHRAy1VJUD7JGMskBoCNrYQAvD_BwE&hvadid=585479824073&hvdev=c&hvlocphy=1003673&hvnetw=g&hvqmt=b&hvrand=12060432139590225660&hvtargid=kwd-947728351851&hydadcr=29108_14573980&keywords=xiaomi+poco+x&qid=1660771826&sr=8-1"><i
+                                                class="fa fa-shopping-cart"></i>Ver en Amazon</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side Bar Start -->
+                <div class="col-lg-4 sidebar">
+                    <div class="sidebar-widget category">
+                        <h2 class="title">Páginas relacionadas</h2>
+                        <nav class="navbar bg-light">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://compucellcr.com/"><i
+                                            class="fa fa-female"></i>Compucell</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://vjcrgames.com/"><i class="fa fa-child"></i>CR
+                                        Games</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://extremetechcr.com/"><i
+                                            class="fa fa-tshirt"></i>extremtech</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.intelec.co.cr/"><i
+                                            class="fa fa-mobile-alt"></i>Intelec</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="sidebar-widget widget-slider">
+                        <div class="sidebar-slider normal-slider">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Pantalla RCA 32"</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/products/r1.jpg" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>$</span>299</h3>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Pantalla Westinghouse 32"</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/products/r2.jpg" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>$</span>399</h3>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Pantalla Telstar 40"</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/products/r4.jpg" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>$</span>189</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget brands">
+                        <h2 class="title">Nuestras Marcas</h2>
+                        <ul>
+                            <li><a>Xiaomi </a><span>(45)</span></li>
+                            <li><a>Gigabyte </a><span>(34)</span></li>
+                            <li><a>Toshiba </a><span>(67)</span></li>
+                            <li><a>Blue</a><span>(74)</span></li>
+                            <li><a>Apple </a><span>(89)</span></li>
+                            <li><a>Samsung</a><span>(28)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget tag">
+                        <h2 class="title">Etiquetas para tu busqueda</h2>
+                        <a>Celulares</a>
+                        <a>Computadoras</a>
+                        <a>Tecnologia</a>
+                        <a>Amazon</a>
+                        <a>Costa Rica</a>
+                        <a>Tienda</a>
+                        <a>Iphone</a>
+                        <a>Samsung</a>
+                        <a>Camaras</a>
+                        <a>Relojes</a>
+                        <a>Audifonos</a>
+                        <a>Televisores</a>
+                    </div>
+                </div>
+                <!-- Side Bar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Product Detail End -->
+
+    <!-- Brand Start -->
+    <div class="brand">
+        <div class="container-fluid">
+            <div class="brand-slider">
+                <div class="brand-item"><img src="img/brand-1.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-2.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-3.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-4.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-5.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-6.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Ponerse en contacto</h2>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>123 E Store, San José, Alajuela</p>
+                            <p><i class="fa fa-envelope"></i>anibal.alpizar14@gmail.com</p>
+                            <p><i class="fa fa-phone"></i>+506 1234-5678</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Siguenos</h2>
+                        <div class="contact-info">
+                            <div class="social">
+                                <a href="https://www.facebook.com/Intelec.cr/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://plus.google.com/+intelec"><i class="fab fa-google-plus"></i></a>
+                                <a href="https://www.instagram.com/Inteleccostarica/"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/intelec"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Información</h2>
+                        <ul>
+                            <li><a href="https://www.intelec.co.cr/terms">Terminos y condiciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Inforacion extra</h2>
+                        <ul>
+                            <li><a href="https://www.intelec.co.cr/">Página original</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row payment align-items-center">
+                <div class="col-md-6">
+                    <div class="payment-method">
+                        <h2>Aceptamos:</h2>
+                        <img src="img/payment-method.png" alt="Payment Method" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="payment-security">
+                        <h2>Secured By:</h2>
+                        <img src="img/godaddy.svg" alt="Payment Security" />
+                        <img src="img/norton.svg" alt="Payment Security" />
+                        <img src="img/ssl.svg" alt="Payment Security" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+                    <p>Copyright &copy; <a
+                            href="https://www.linkedin.com/in/anibal-alpizar-campos-2738a822a/">Linkedin</a>. All Rights
+                        Reserved</p>
+                </div>
+
+                <div class="col-md-6 template-by">
+                    <p>Relizado por <a href="https://github.com/Anibal-Alpizar">Anibal Alpizar</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
